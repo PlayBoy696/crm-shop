@@ -3,19 +3,18 @@ function Navbar() {
     <header className="max-w-7xl mx-auto px-8 py-8 flex justify-between items-center">
 
       <h1 className="text-3xl font-semibold">
-        Area
+          TravelHub
       </h1>
 
-      <nav className="hidden md:flex gap-10 text-sm font-medium">
-        <a href="#">Benefits</a>
-        <a href="#">Specifications</a>
-        <a href="#">How-To</a>
-        <a href="#">Contact</a>
-      </nav>
-
+    <nav className="flex gap-10 text-sm font-medium">
+  <a href="#">Flights</a>
+  <a href="#">Hotels</a>
+  <a href="#">Tours</a>
+  <a href="#">Bookings</a>
+</nav>
       <button className="bg-[#556B2F] text-white px-6 py-3 rounded-full">
-        Learn More
-      </button>
+        Sign In
+      </button> 
 
     </header>
   )

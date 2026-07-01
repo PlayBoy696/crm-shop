@@ -2,11 +2,11 @@ function Hero() {
   return (
     <section className="max-w-7xl mx-auto px-8 py-20">
       <h2 className="text-[90px] leading-none font-serif tracking-[-4px] text-black">
-        Browse everything.
+        Explore your next adventure.
       </h2>
 
       <p className="mt-8 max-w-2xl mx-auto text-gray-600">
-        Manage clients, products, orders and payments in one clean CRM platform.
+       Book flights, hotels and holiday packages in one modern travel platform.
       </p>
       <div className="relative mt-20 flex justify-center"> 
 

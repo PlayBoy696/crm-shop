@@ -2,20 +2,20 @@ import FeatureCard from "./FeatureCard"
 
 const features = [
   {
-    title: "Amplify Insights",
-    text: "Discover powerful analytics and make smarter decisions with your data.",
+    title: "Smart Search",
+    text: "Find flights, hotels and tours based on your destination and budget.",
   },
   {
-    title: "Global Presence",
-    text: "Expand your business across different countries and markets.",
+    title: "Easy Booking",
+    text: "Book your trip in a few clicks with a simple and clean experience.",
   },
   {
-    title: "Language Support",
-    text: "Communicate with customers without language barriers.",
+    title: "Travel Dashboard",
+    text: "Manage bookings, customers and payments from one place.",
   },
   {
-    title: "Visualize Growth",
-    text: "Track sales and performance using beautiful dashboards.",
+    title: "Secure Payments",
+    text: "Pay safely online and keep all booking details in your account.",
   },
 ]
 
