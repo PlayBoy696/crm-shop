@@ -1,25 +1,33 @@
 import DestinationCard from "./DestinationCard";
+import DubaiImage from "../assets/Dubai.jpg";
+import TokyoImage from "../assets/Tokyo.jpg";
+import RomeImage from "../assets/Rome.jpg";
+import NewYorkImage from "../assets/NewYork.jpg";
 
 const destinations = [
   {
     city: "Dubai",
     country: "United Arab Emirates",
     price: "From £599",
+    image: DubaiImage,
   },
   {
     city: "Tokyo",
     country: "Japan",
     price: "From £899",
+    image: TokyoImage,
   },
   {
     city: "Rome",
     country: "Italy",
-    price: "From £249",
+    price: "From £249", 
+    image: RomeImage,
   },
   {
     city: "New York",
     country: "United States",
     price: "From £699",
+    image: NewYorkImage,
   },
 ];
 
@@ -30,7 +38,7 @@ function Destinations() {
         Popular Destinations
       </h2>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
         {destinations.map((destination) => (
           <DestinationCard
             key={destination.city}
